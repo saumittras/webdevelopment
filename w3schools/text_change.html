@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Menupulations</title>
+  </head>
+  <body>
+    <h2>Formating Text by JavaScript...</h2>
+    <p id="format-text">
+      This text format will change after clicking the button..
+    </p>
+    <button type="button" onclick="myFormat('format-text')">
+      Click Button
+    </button>
+
+    <script>
+      function myFormat() {
+        document.getElementById("format-text").style.color = "blue";
+        document.getElementById("format-text").style.backgroundColor =
+          "lightblue";
+        document.getElementById("format-text").style.fontSize = "30px";
+      }
+    </script>
+  </body>
+</html>

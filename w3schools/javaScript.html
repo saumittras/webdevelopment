@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>Using document.getElementById() Method for showing text</h1>
+    <p id="hello"></p>
+    <button type="button" onclick="myFunction(btext)">
+      Click Here for change text
+    </button>
+    <h2 id="btext">This Text will be change After clicking button...</h2>
+
+    <script>
+      document.getElementById("hello").innerHTML = "Hello, JavaScript";
+
+      function myFunction() {
+        document.getElementById("btext").innerHTML = "The text will be change";
+      }
+    </script>
+  </body>
+</html>

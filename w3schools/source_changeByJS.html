@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture Source Changes</title>
+  </head>
+  <body>
+    <h1>My First Java Script Program</h1>
+    ​
+    <p>
+      Here, a JavaScript changes the value of the src (source) attribute of an
+      image.
+    </p>
+    <img src="/picture/pic_bulboff.gif" id="ch_picture" alt="" />
+    <p>
+      <button type="button" onclick="buro(0)">Light Off</button>
+      <button type="button" onclick="buro(1)">Light On</button>
+    </p>
+    <script>
+      function buro(sw) {
+        var buri;
+        if (sw == 0) {
+          buri = "/picture/pic_bulboff.gif";
+        } else {
+          buri = "/picture/pic_bulbon.gif";
+        }
+        document.getElementById("ch_picture").src = buri;
+      }
+    </script>
+  </body>
+</html>
