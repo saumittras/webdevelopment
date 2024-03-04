@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+}
+
+input[type="text"]{
+    
+    border: 1px solid rgb(0, 255, 55);
+    background-color: blue;
+}
+label{
+    font-weight: bold;
+    color: orangered;
+}

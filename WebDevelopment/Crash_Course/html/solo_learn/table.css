@@ -1,0 +1,22 @@
+body{
+    color: rgb(255, 253,253);
+    font-family: Arial, sans-serif;
+    background-color: #000a23;
+
+}
+th, td{
+    border: 1px solid #fafafa;
+    text-align: center;
+}
+th{
+    background-color:#5b52dd;
+}
+table{
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: red
+}
+tr:nth-child(even){
+    background-color: green;
+}

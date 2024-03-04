@@ -1,0 +1,10 @@
+h2, p,a{
+    background-color: blueviolet;
+}
+div{
+    width: 50%;
+
+}
+.padded-box{
+    padding: 20px;
+}

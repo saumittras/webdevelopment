@@ -1,0 +1,19 @@
+.custom-box2{
+    border: 2px solid #ffa310;
+    padding: 10px;
+    margin: 10px;
+    color:  white;
+}
+.custom-box1{
+    border: 2px solid #ffa310;
+    padding: 10px;
+    color: white;
+
+}
+.default-box{
+    border: 2px solid #ffa310;
+    color: white;
+}
+body{
+    background-color: black;
+}
